@@ -1,0 +1,248 @@
+body {
+  margin: 0px;
+  margin-top: 105px;
+  height: 100%; }
+
+h1 {
+  color: #591521;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  height: 30px;
+  margin: 0px;
+  padding: 15px; }
+
+h2 {
+  color: #9FE3D4; }
+
+.informacion {
+  color: #797474; }
+
+.nombre_apellido {
+  color: #797474; }
+
+.enviar {
+  color: #797474; }
+
+#menucontenedor {
+  position: fixed;
+  width: 100%;
+  height: 104px;
+  background-color: #D9D9D9;
+  margin-top: 0px;
+  z-index: 99;
+  box-shadow: 0px -4px 10px black;
+  top: 0px; }
+
+.menu {
+  width: 200px;
+  height: 100%;
+  padding: 0px;
+  background-color: #F2CBBD;
+  text-align: center;
+  overflow: hidden;
+  position: fixed;
+  left: -250px;
+  transition: 1s;
+  float: left;
+  top: 104px;
+  box-shadow: -4px 10px 9px black; }
+
+.contmenu {
+  width: 200px;
+  height: 0px; }
+
+.contmenu:hover .menu {
+  left: 0px;
+  transition: 1s; }
+
+.contmenu:hover #menubtn {
+  background-color: #D2C7C7;
+  color: #ffffff !important;
+  border-radius: 0px 50px 0px 0px;
+  transition: all 1s; 
+  padding-bottom: 17px;}
+
+a:hover {
+  color: blue !important; }
+
+a {
+  list-style: disc;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  text-decoration: none; }
+
+button {
+  float: left;
+  border: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  width: 200px;
+  font-size: 16px; }
+
+#carrito:hover{
+  background-color: #D2C7C7;
+  color: #ffffff !important;
+  border-radius: 50px 0px 0px 0px !important;
+  transition: all 1s; }
+
+#carrito {
+  left: 100%;
+  margin-left: -200px;
+  position: fixed; }
+
+#carritobtn{
+  font-family: 'Work Sans', sans-serif;
+  padding-bottom: 17PX;
+}
+
+#carritobtn:hover{
+  border-radius: 50px 0px 0px 0px !important;
+}
+
+#menubtn {
+  font-family: 'Work Sans', sans-serif;
+  position: fixed; }
+
+#menu ul li {
+  font-family: 'Work Sans', sans-serif;
+  list-style-type: none !important;
+  padding: 20px;
+  color: #000000 !important;
+  text-decoration: none !important;
+  font-size: 14px; }
+
+#menu ul {
+  margin: 0px;
+  padding: 0px; }
+
+#menu ul li:hover {
+  background-color: #958B8B;
+  color: #ffffff !important; }
+
+#imgportada {
+  width: 100%;
+  height: 490px;
+  background-image: url(img/portada.jpg);
+  background-size: cover;
+  background-position: center; }
+
+#input:hover {
+  border-radius: 50px;
+  color: white;
+  transition: all 1s;
+  background-color: #BF7B6B; }
+
+
+#input {
+  border-style: double;
+  background-color: #F2CBBD; }
+
+#bowls {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 14px 10px 14px 1px; }
+
+#bowls2 {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 14px 10px 14px 1px; }
+
+#cucharasindi {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 14px 10px 14px 1px; }
+
+#cucharitasloveyou {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 14px 10px 14px 1px; }
+
+#cucharitasmr {
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 14px 10px 14px 1px; }
+
+.texto{
+  font-family: "Karma", sans-serif;
+ width: 80%;
+  margin-left: 10%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.formulario{
+  font-family: "Karma", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+.redes_sociales{
+  font-family: "Karma", sans-serif;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+#espacio{
+  width: 5%;
+  height: 100%;
+  float: left;
+}
+
+.red{
+  width: 30%;
+  height: 100%;
+  float: left;
+  background-size: contain;
+  background-position: center; 
+background-repeat: no-repeat;
+}
+
+#cuotas{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #BF7B6B;
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#instagram{
+  background-image: url(img/instagram1.png);
+  }
+
+  #facebook{
+  background-image: url(img/facebook1.png);
+  }
+
+  #twitter{
+  background-image: url(img/twitter1.png);
+  }
+
+  footer{
+    box-shadow: 0px 3px 10px black;
+    font-family: 'Karma', sans-serif; 
+    text-align: center; 
+    background-color:  #D2C7C7;
+
+  }
+
+  #instagram:hover{
+  background-image: url(img/instagram2.png);
+  }
+
+  #facebook:hover{
+  background-image: url(img/facebook2.png);
+  }
+
+  #twitter:hover{
+  background-image: url(img/twitter2.png);
+  }
